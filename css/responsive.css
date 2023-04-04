@@ -1,0 +1,31 @@
+/* BP 1170 760 420 */
+
+@media (max-width: 830px) {
+    .nav-div{
+        display: none;
+    }
+    .burger-bar{
+        display: block;
+        font-size: 25px;
+    }
+    .s1-div{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .s2-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .s2-d1{
+        width: 75%;
+        padding-left: 25px;
+    }
+    .block{
+        width: 340px;
+    }
+}
+
+@media (max-width: 530px){
+   
+
+}

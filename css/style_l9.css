@@ -1,0 +1,107 @@
+
+
+.main{
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+.container2{
+    width: 100%;
+   
+}
+/* header */
+header{
+	width: 100%;
+	background-color: white;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*color: black;*/
+	text-transform: uppercase;
+
+}
+.header-div{
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+}
+.nav-ul{
+	display: flex;
+	
+
+}
+.nav-li:not(:last-child){
+	margin-right: 33px;	
+}
+a{
+   color: black;
+}
+.burger-bar{
+    display: none;
+}
+
+/*Section 1*/
+.s1-div{
+	width: 99%;
+	height: 680px;
+	background-image: url(../img/forest1.jpg);
+	background-color: white;
+    background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.s1-div h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+/*Section 2*/
+.s2-div{
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.s2-d1{
+	width: 25%;
+	margin: 10px;
+}
+.s2-d1 h3{
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+.s2-d1 h2{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.s2-d2{
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+.s2-d1 p{
+	color: gray;
+}
+.block{
+	width: 240px;
+	margin: 21px;
+}
+.block-img{
+	width: 100%;
+	object-fit: cover;
+	margin-bottom: 11px;
+}
+.block h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
